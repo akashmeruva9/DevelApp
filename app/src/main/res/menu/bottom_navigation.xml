@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tado_bottom_nav"
+        android:icon="@drawable/baseline_task_alt_24"
+        android:title="To-Do"
+        />
+    <item
+        android:id="@+id/ide_bottom_nav"
+        android:icon="@drawable/baseline_code_off_24"
+        android:title="IDE"
+        />
+    <item
+        android:id="@+id/code_assist_bottom_nav"
+        android:icon="@drawable/baseline_screen_search_desktop_24"
+        android:title="Code-Assist"
+        />
+    <item
+        android:id="@+id/news_bottom_nav"
+        android:icon="@drawable/baseline_newspaper_24"
+        android:title="News"
+        />
+    <item
+        android:id="@+id/destress_bottom_nav"
+        android:icon="@drawable/baseline_airline_seat_individual_suite_24"
+        android:title="De-Stress"
+        />
+</menu>
