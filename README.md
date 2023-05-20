@@ -34,9 +34,9 @@ Our app addresses the challenges faced by developers with a comprehensive soluti
 
 Technologies Used:
 
-> Java and Kotlin
+. Java and Kotlin
 > Android Studio
-> Firebase
+. Firebase
 > Firebase MLKit
 > Dev API
 > ChatGPT 
