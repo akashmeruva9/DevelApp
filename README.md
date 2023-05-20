@@ -8,3 +8,11 @@ Overview:
 
 DEVELAPP is a developer-focused app designed to optimize workflow and automate tasks. It features a TODO LIST, fetches tech news with the DEV API, provides code assistance using ChatGPT, and offers an IDE with CODE RECOGNITION using Firebase MLKit for currently Java and C++ . Compile, run code, and view output effortlessly. Plus, enjoy de-features like coding memes. Enhance productivity, streamline development, and achieve a healthy work-life balance with DEVELAPP.
 
+Problem Statement:
+
+Developers face numerous challenges in their day-to-day work, including managing tasks, staying updated with the latest technology trends, finding relevant code solutions, a functionable in app IDE and maintaining a healthy work-life balance. These challenges can hinder productivity, lead to inefficiencies, and contribute to stress and burnout. There is a need for a comprehensive developer-focused app that optimizes workflow, automates tasks, provides access to valuable resources, and promotes a balanced and stress-free development experience.
+
+
+
+
+
