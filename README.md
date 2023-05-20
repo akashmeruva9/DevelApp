@@ -32,5 +32,15 @@ Our app addresses the challenges faced by developers with a comprehensive soluti
 
 5. De-Stress Features: Recognizing the importance of a healthy work-life balance, our app provides de-stress features like entertaining coding memes. These features offer a moment of relaxation and humor, helping developers relieve stress and create a positive coding environment.
 
+Technologies Used:
+
+> Java and Kotlin
+> Android Studio
+> Firebase
+> Firebase MLKit
+> Dev API
+> ChatGPT 
+> Reddit API
+> Room Database
 
 
