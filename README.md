@@ -12,7 +12,11 @@ Problem Statement:
 
 Developers face numerous challenges in their day-to-day work, including managing tasks, staying updated with the latest technology trends, finding relevant code solutions, a functionable in app IDE and maintaining a healthy work-life balance. These challenges can hinder productivity, lead to inefficiencies, and contribute to stress and burnout. There is a need for a comprehensive developer-focused app that optimizes workflow, automates tasks, provides access to valuable resources, and promotes a balanced and stress-free development experience.
 
-
-
+Objective:
+1. Streamline Developer Workflow using TODO List to organize and prioritize taks.
+2. Keep developers up-to-date with the latest technology trends using DEV News.
+3. Provide code assistance by leveraging ChatGPT
+4. Advanced in app IDE featuring CODE RECOGNITION in an image
+5. Offers de-stress features viz coding memes rendered through Reddit API
 
 
