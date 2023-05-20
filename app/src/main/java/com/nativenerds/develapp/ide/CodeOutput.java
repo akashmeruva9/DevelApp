@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.amrdeveloper.codeview.CodeView;
+import com.nativenerds.develapp.MainActivity;
 import com.nativenerds.develapp.R;
 
 import java.util.ArrayList;
@@ -51,7 +52,8 @@ public class CodeOutput extends AppCompatActivity {
      */
     @Override
     public void onBackPressed() {
-        onClickBack(null);
+        Intent intent = new Intent(this , MainActivity.class);
+        startActivity(intent);
     }
 
     /**

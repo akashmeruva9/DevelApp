@@ -14,7 +14,7 @@
     <item
         android:id="@+id/code_assist_bottom_nav"
         android:icon="@drawable/baseline_screen_search_desktop_24"
-        android:title="Code-Assist"
+        android:title="GPT-Code"
         />
     <item
         android:id="@+id/news_bottom_nav"
@@ -24,6 +24,6 @@
     <item
         android:id="@+id/destress_bottom_nav"
         android:icon="@drawable/baseline_airline_seat_individual_suite_24"
-        android:title="De-Stress"
+        android:title="Book Marks"
         />
 </menu>
