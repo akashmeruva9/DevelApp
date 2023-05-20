@@ -4,4 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FF9580</color>
     <color name="dark_blue">#161C38</color>
+    <color name="colorPrimary">#3f4041</color>
+    <color name="colorPrimaryDark">#3f4041</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="brightBlue">#30AFFF</color>
+    <color name="darkBlue">#0078FF</color>
 </resources>
