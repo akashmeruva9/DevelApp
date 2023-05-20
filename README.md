@@ -106,7 +106,7 @@ Technologies Used:
                     De-Stress
                 </td>
                 <td  style="border: 1px solid black ;">
-                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/dfa8d528-b33d-43cb-9b04-c79139546d3"   width="200">
+                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/165d967f-ed62-4e9d-b2ea-8ba120958394"   width="200">
                 </td>
             </tr>
 </table>
