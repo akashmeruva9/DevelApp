@@ -19,4 +19,10 @@ Objective:
 4. Advanced in app IDE featuring CODE RECOGNITION in an image
 5. Offers de-stress features viz coding memes rendered through Reddit API
 
+Solution:
+Our app addresses the challenges faced by developers with a comprehensive solution that optimizes workflow, automates tasks, and promotes a healthy work-life balance. Here's how our app tackles each problem:
+
+Task Management: Our app provides a TODO LIST feature, allowing developers to create, organize, and prioritize their tasks effectively. With this feature, developers can stay focused and efficiently manage their work.
+
+  
 
