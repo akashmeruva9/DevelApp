@@ -36,13 +36,79 @@ Our app addresses the challenges faced by developers with a comprehensive soluti
 
 Technologies Used:
 
-1 Java and Kotlin
-2 Android Studio
-3 Firebase
-4 Firebase MLKit
-5 Dev API
-6 ChatGPT 
-7 Reddit API
-8 Room Database
+- Java and Kotlin
+- Android Studio
+- Firebase
+- Firebase MLKit
+- Dev API
+- ChatGPT 
+- Reddit API
+- Room Database
+
+
+<table style="border: 1px solid black;">
+            <tr>
+                <td  style="border: 1px solid black ;">
+                    Front
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/ffcab95e-36e1-463c-b9d9-87a5862ba130"   width="200">
+                </td>
+                <td  style="border: 1px solid black ;">
+                    To-Do
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/3a144a22-d31a-4da1-90dc-939760ada082"   width="200">
+                </td>
+                 <td  style="border: 1px solid black ;">
+                    Code Editor
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/KnowMe/assets/106223361/82f92767-96c3-4af2-9191-205f1e032b81"   width="200">
+                </td>
+             
+            </tr>
+</table>
+
+
+<table style="border: 1px solid black;">
+            <tr>
+                <td  style="border: 1px solid black ;">
+                    Output
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/KnowMe/assets/106223361/68df00b3-2695-43c1-a8cc-901fdfefcb9e"   width="200">
+                </td>
+                <td  style="border: 1px solid black ;">
+                    Scanner
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/1ffb6919-e27f-414d-896d-80884990340b"   width="200">
+                </td>
+           <td  style="border: 1px solid black ;">
+                    ChatGPT
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/ecb352a9-807c-4162-9cbd-500a3229563c"   width="200">
+                </td>
+            </tr>
+</table>
+
+<table style="border: 1px solid black;">
+            <tr>
+              <td  style="border: 1px solid black ;">
+                    News
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/c60d03f8-1001-4954-85ad-54dff7c3a06c"   width="200">
+                </td>
+               <td  style="border: 1px solid black ;">
+                    De-Stress
+                </td>
+                <td  style="border: 1px solid black ;">
+                    <img src="https://github.com/akashmeruva9/DevelApp/assets/106223361/dfa8d528-b33d-43cb-9b04-c79139546d3"   width="200">
+                </td>
+            </tr>
+</table>
 
 
