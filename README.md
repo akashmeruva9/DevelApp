@@ -1,6 +1,8 @@
-# DEVELAPP
+## DEVELAPP
+
 
 ![wholeLogo](https://github.com/akashmeruva9/DevelApp/assets/60516848/2e681abc-4dd0-48ab-9f06-cb063daff294)
+
 
 Canva: https://www.canva.com/design/DAFgRFrr6vc/fMR3sl-EKYJ0-h6pIGbp7g/view?utm_content=DAFgRFrr6vc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
@@ -34,13 +36,13 @@ Our app addresses the challenges faced by developers with a comprehensive soluti
 
 Technologies Used:
 
-. Java and Kotlin
-> Android Studio
-. Firebase
-> Firebase MLKit
-> Dev API
-> ChatGPT 
-> Reddit API
-> Room Database
+1 Java and Kotlin
+2 Android Studio
+3 Firebase
+4 Firebase MLKit
+5 Dev API
+6 ChatGPT 
+7 Reddit API
+8 Room Database
 
 
