@@ -3,21 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     android:layout_marginTop="20dp"
-    android:background="#1E1E1E"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_blue"
     app:cardCornerRadius="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#2C2C2C">
+        android:background="#2A354C">
 
         <RelativeLayout
             android:id="@+id/fds"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#1E1E1E"
+            android:background="#486762"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -27,20 +29,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_margin="3dp"
-                android:paddingLeft="10dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
                 android:layout_marginRight="60dp"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp" />
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/hkjg"
             android:layout_width="match_parent"
-            android:layout_height="160dp"
-            android:layout_margin="5dp"
-            android:layout_marginTop="5dp"
+            android:layout_height="120dp"
+            android:background="#A1C6C0"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -48,15 +51,19 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/newsimage12"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:foregroundGravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
                 android:background="@drawable/back"
                 app:cardCornerRadius="5dp">
 
                 <ImageView
                     android:id="@+id/newsimage"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="@drawable/back"
                     android:scaleType="centerCrop" />
             </androidx.cardview.widget.CardView>
@@ -69,11 +76,12 @@
                 android:layout_alignLeft="@+id/newsimage12"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
-                android:layout_marginLeft="155dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
                 android:gravity="bottom"
                 android:paddingLeft="10dp"
-                android:textColor="@color/white"
-                android:textSize="14sp" />
+                android:textColor="#000000"
+                android:textSize="12sp" />
 
             <Button
                 android:id="@+id/newssharebutton"
@@ -82,6 +90,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/dark_blue"
                 android:background="@drawable/share" />
         </RelativeLayout>
 
