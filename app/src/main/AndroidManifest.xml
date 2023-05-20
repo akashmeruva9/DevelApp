@@ -25,6 +25,8 @@
             android:exported="false" />
         <activity android:name=".ide.CodeOutput" />
         <activity android:name=".ide.destress" />
+        <activity android:name=".todo.taskentry"/>
+        <activity android:name=".todo.updatetask"/>
         <activity
             android:name=".MainActivity"
             android:exported="true" />

@@ -4,7 +4,11 @@ import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.ProgressBar
 import android.widget.SeekBar
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.nativenerds.develapp.R
@@ -20,20 +24,23 @@ class taskentry : AppCompatActivity() {
     var todaymonth: Int = 0
     var todayyear: Int = 0
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_task_entry)
 
-
+        val taskentrysave= findViewById<TextView>(R.id.taskentrysave)
         taskentrysave.setOnClickListener {
             check()
         }
+        val taskentrycancel= findViewById<TextView>(R.id.taskentrycancel)
 
         taskentrycancel.setOnClickListener {
             val resultIntent = Intent()
             setResult(RESULT_CANCELED, resultIntent)
             finish()
         }
+        val taskdateofsubmission= findViewById<TextView>(R.id.taskdateofsubmission)
 
         taskdateofsubmission.setOnClickListener{
             val c = Calendar.getInstance()
@@ -58,6 +65,8 @@ class taskentry : AppCompatActivity() {
             }, cyear, cmonth, cday
             ).show()
         }
+        val taskentryseekBar= findViewById<SeekBar>(R.id.taskentryseekBar)
+        val taskentryprogress= findViewById<TextView>(R.id.taskentryprogress)
 
         taskentryseekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             @SuppressLint("SetTextI18n")
@@ -75,6 +84,8 @@ class taskentry : AppCompatActivity() {
     private fun check() {
 
         var a = true
+        val Tasktitledittext= findViewById<EditText>(R.id.Tasktitledittext)
+        val taskdateofsubmission= findViewById<TextView>(R.id.taskdateofsubmission)
 
         if (Tasktitledittext.text.isNullOrEmpty()) {
             Tasktitledittext.error = "Required"
@@ -97,9 +108,9 @@ class taskentry : AppCompatActivity() {
 
 
         if (a == true) {
-
+            val taskentryprogress= findViewById<TextView>(R.id.taskentryprogress)
             var progress: Int = taskentryprogress.text.toString().substringBefore("%").toInt()
-
+            val taskdescriptionedittext= findViewById<EditText>(R.id.taskdescriptionedittext)
             val resultIntent = Intent()
             resultIntent.putExtra("title", Tasktitledittext.text.toString())
             resultIntent.putExtra("description", taskdescriptionedittext.text.toString())

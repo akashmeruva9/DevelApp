@@ -11,12 +11,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.nativenerds.develapp.R
 import java.util.*
 
@@ -38,11 +41,13 @@ class Tasksfragment : Fragment(R.layout.fragment_taskfragment), taskchanged {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val taskrecyclerview= requireActivity().findViewById<RecyclerView>(R.id.taskrecyclerview)
 
         taskrecyclerview.layoutManager = LinearLayoutManager(this.context)
         adapter12 = context?.let { taskrecyclerviewadapter(it, this) }!!
         taskrecyclerview.adapter = adapter12
 
+        val addtaskButton= requireActivity().findViewById<TextView>(R.id.addtaskButton)
         addtaskButton.setOnClickListener {
             val newtaskintent = Intent(context, taskentry::class.java)
             newtaskintent.putExtra("classifier" , "new")

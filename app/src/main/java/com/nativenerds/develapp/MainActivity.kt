@@ -9,6 +9,7 @@ import com.nativenerds.develapp.CodeAssist.CodeAssistFragment
 import com.nativenerds.develapp.DeStress.DeStreessFragment
 import com.nativenerds.develapp.News.NewsFragment
 import com.nativenerds.develapp.ide.IDEFragment
+import com.nativenerds.develapp.todo.Tasksfragment
 import com.nativenerds.develapp.todo.ToDoFragment
 
 class MainActivity : AppCompatActivity() {
@@ -19,14 +20,14 @@ class MainActivity : AppCompatActivity() {
         val homeBottomNavigationBar = findViewById<BottomNavigationView>(R.id.home_bottom_navigation_bar)
 
         homeBottomNavigationBar.selectedItemId = R.id.tado_bottom_nav
-        replacefragment(ToDoFragment())
+        replacefragment(Tasksfragment())
 
         homeBottomNavigationBar.setOnItemSelectedListener { item ->
 
             when (item.itemId)
             {
                 R.id.tado_bottom_nav -> {
-                    replacefragment(ToDoFragment())
+                    replacefragment(Tasksfragment())
                 }
                 R.id.code_assist_bottom_nav -> {
                     replacefragment(CodeAssistFragment())

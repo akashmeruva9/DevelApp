@@ -6,10 +6,12 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.EditText
 import android.widget.SeekBar
+import android.widget.TextView
 import androidx.annotation.RequiresApi
-import com.akash.meruva.my_manger.R
-import kotlinx.android.synthetic.main.activity_update_task.*
+import androidx.recyclerview.widget.RecyclerView
+import com.nativenerds.develapp.R
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -31,6 +33,10 @@ class updatetask : AppCompatActivity() {
 
         val reciever = intent.extras
         val id = reciever?.getInt("id")!!
+        val Tasktitledittext_update= findViewById<EditText>(R.id.Tasktitledittext_update)
+        val taskdescriptionedittext_update= findViewById<EditText>(R.id.taskdescriptionedittext_update)
+        val taskdateofsubmission_update= findViewById<TextView>(R.id.taskdateofsubmission_update)
+
         Tasktitledittext_update.append(reciever.getString("title").toString())
         taskdescriptionedittext_update.append(reciever.getString("description").toString())
         taskdateofsubmission_update.text = reciever.getString("duedate").toString()
@@ -54,14 +60,21 @@ class updatetask : AppCompatActivity() {
         todaymonth1 = date2.month+ 1
         todayyear1 = date2.year
 
+        val taskentryseekBar_update= findViewById<SeekBar>(R.id.taskentryseekBar_update)
+        val taskeditupdateprogress= findViewById<TextView>(R.id.taskeditupdateprogress)
+
+
         taskentryseekBar_update.progress = ((reciever.getInt("progress")).div(10))
         taskeditupdateprogress.text = "${reciever.getInt("progress")}%"
 
+
+        val taskeditupdate= findViewById<TextView>(R.id.taskeditupdate)
 
         taskeditupdate.setOnClickListener {
             check(id)
         }
 
+        val taskeditcancel= findViewById<TextView>(R.id.taskeditcancel)
         taskeditcancel.setOnClickListener {
             val resultIntent = Intent()
             setResult(RESULT_CANCELED, resultIntent)
@@ -102,17 +115,22 @@ class updatetask : AppCompatActivity() {
     private fun check(id : Int) {
 
         var a = true
+        val Tasktitledittext_update= findViewById<TextView>(R.id.Tasktitledittext_update)
 
         if (Tasktitledittext_update.text.isNullOrEmpty()) {
             Tasktitledittext_update.error = "Required"
             a = false
         }
+        val taskdateofsubmission_update= findViewById<TextView>(R.id.taskdateofsubmission_update)
 
 
         if (taskdateofsubmission_update.text.isNullOrEmpty()) {
             taskdateofsubmission_update.error = "Required"
             a = false
         }
+
+        val taskeditupdateprogress= findViewById<TextView>(R.id.taskeditupdateprogress)
+        val taskdescriptionedittext_update= findViewById<EditText>(R.id.taskdescriptionedittext_update)
 
 
         if (a == true) {
