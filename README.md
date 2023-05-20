@@ -22,7 +22,15 @@ Objective:
 Solution:
 Our app addresses the challenges faced by developers with a comprehensive solution that optimizes workflow, automates tasks, and promotes a healthy work-life balance. Here's how our app tackles each problem:
 
-Task Management: Our app provides a TODO LIST feature, allowing developers to create, organize, and prioritize their tasks effectively. With this feature, developers can stay focused and efficiently manage their work.
+1. Task Management: Our app provides a TODO LIST feature, allowing developers to create, organize, and prioritize their tasks effectively. With this feature, developers can stay focused and efficiently manage their work.
 
-  
+2. Tech News Integration: By fetching tech news using the DEV API, our app ensures that developers stay updated with the latest technology trends and advancements. This helps them stay ahead in their field and make informed decisions.
+
+3. Code Assistance: Our app offers code assistance by integrating ChatGPT. Developers can quickly search for programming queries and receive relevant solutions and suggestions, saving time and effort in finding the right code solutions.
+
+4. Advanced IDE: With our IDE featuring image recognition for Java and C++ codes currently using the Firebase MLKit, where developers can capture code snippets      effortlessly. The app recognizes the code and allows users to paste it directly into the IDE for further editing, compilation, and execution. This streamlines the coding process and eliminates manual typing errors.
+
+5. De-Stress Features: Recognizing the importance of a healthy work-life balance, our app provides de-stress features like entertaining coding memes. These features offer a moment of relaxation and humor, helping developers relieve stress and create a positive coding environment.
+
+
 
