@@ -86,7 +86,7 @@ class DeStreessFragment : Fragment(R.layout.fragment_de_streess) {
 
                 val newsJsonArray = response.getJSONArray("memes")
                 val newsArray = ArrayList<Memes>()
-                for (i in 0 until 20) {
+                for (i in 0 until 5) {
                     val newsJsonObject = newsJsonArray.getJSONObject(i)
                     val news = Memes(
                         newsJsonObject.getString("url"),
